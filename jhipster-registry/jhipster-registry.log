@@ -263,3 +263,736 @@
 2018-04-05 20:56:31.455 DEBUG 8652 --- [XNIO-2 task-17] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.web.rest.EurekaResource.eureka() with result = <200 OK,io.github.jhipster.registry.web.rest.vm.EurekaVM@594f1dd5,{}>
 2018-04-05 20:56:34.383 DEBUG 8652 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
 2018-04-05 20:56:34.387 DEBUG 8652 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:03:59.855  INFO 12152 --- [restartedMain] i.g.j.registry.JHipsterRegistryApp       : The following profiles are active: swagger,dev,native
+2018-04-05 21:04:04.426 DEBUG 12152 --- [restartedMain] i.g.j.r.config.AsyncConfiguration        : Creating Async Task Executor
+2018-04-05 21:04:05.128 DEBUG 12152 --- [restartedMain] i.g.j.r.config.MetricsConfiguration      : Registering JVM gauges
+2018-04-05 21:04:05.268 DEBUG 12152 --- [restartedMain] i.g.j.r.config.MetricsConfiguration      : Initializing Metrics JMX reporting
+2018-04-05 21:04:09.285 DEBUG 12152 --- [restartedMain] i.g.j.registry.config.WebConfigurer      : Registering CORS filter
+2018-04-05 21:04:09.550  INFO 12152 --- [restartedMain] i.g.j.registry.config.WebConfigurer      : Web application configuration, using profiles: swagger
+2018-04-05 21:04:09.550 DEBUG 12152 --- [restartedMain] i.g.j.registry.config.WebConfigurer      : Initializing Metrics registries
+2018-04-05 21:04:09.566 DEBUG 12152 --- [restartedMain] i.g.j.registry.config.WebConfigurer      : Registering Metrics Filter
+2018-04-05 21:04:09.566 DEBUG 12152 --- [restartedMain] i.g.j.registry.config.WebConfigurer      : Registering Metrics Servlet
+2018-04-05 21:04:09.566  INFO 12152 --- [restartedMain] i.g.j.registry.config.WebConfigurer      : Web application fully configured
+2018-04-05 21:04:10.957  WARN 12152 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-04-05 21:04:15.238  WARN 12152 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-04-05 21:04:17.388 DEBUG 12152 --- [restartedMain] i.g.j.c.apidoc.SwaggerConfiguration      : Starting Swagger
+2018-04-05 21:04:17.409 DEBUG 12152 --- [restartedMain] i.g.j.c.apidoc.SwaggerConfiguration      : Started Swagger in 21 ms
+2018-04-05 21:04:19.488  INFO 12152 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2018-04-05 21:04:19.488  INFO 12152 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2018-04-05 21:04:19.503  INFO 12152 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1522942459503 with initial instances count: 0
+2018-04-05 21:04:20.363  INFO 12152 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2018-04-05 21:04:20.363  INFO 12152 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2018-04-05 21:04:20.363  INFO 12152 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2018-04-05 21:04:20.363  INFO 12152 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2018-04-05 21:04:21.659  WARN 12152 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with key 'zuulEndpoint' has been registered as an MBean but has no exposed attributes or operations
+2018-04-05 21:04:24.565 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:04:24.596 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:04:24.721  INFO 12152 --- [restartedMain] i.g.j.registry.JHipsterRegistryApp       : Started JHipsterRegistryApp in 29.881 seconds (JVM running for 31.232)
+2018-04-05 21:04:24.753  INFO 12152 --- [restartedMain] i.g.j.registry.JHipsterRegistryApp       : 
+----------------------------------------------------------
+	Application 'jhipster-registry' is running! Access URLs:
+	Local: 		http://localhost:8761
+	External: 	http://10.0.75.1:8761
+	Profile(s): 	[swagger, dev, native]
+----------------------------------------------------------
+2018-04-05 21:04:25.676  INFO 12152 --- [XNIO-2 task-1] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2018-04-05 21:04:25.676  INFO 12152 --- [XNIO-2 task-1] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2018-04-05 21:04:25.676  INFO 12152 --- [XNIO-2 task-1] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2018-04-05 21:04:25.676  INFO 12152 --- [XNIO-2 task-1] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2018-04-05 21:04:26.710  WARN 12152 --- [XNIO-2 task-1] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: MICROSERVICEAPI - microserviceAPI:2cff3423b00c3349a37b1571a5462021
+2018-04-05 21:04:26.710  WARN 12152 --- [XNIO-2 task-1] c.n.eureka.resources.InstanceResource    : Not Found (Renew): MICROSERVICEAPI - microserviceAPI:2cff3423b00c3349a37b1571a5462021
+2018-04-05 21:04:29.604 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:04:29.604 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:04:34.615 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:04:34.615 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:04:37.137  WARN 12152 --- [XNIO-2 task-8] o.s.c.n.zuul.web.ZuulHandlerMapping      : No routes found from RouteLocator
+2018-04-05 21:04:39.624 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:04:39.650 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:04:44.659 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:04:44.659 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:04:49.670 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:04:49.670 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:04:54.675 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:04:54.675 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:04:59.682 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:04:59.683 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:05:04.685 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:05:04.688 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:05:09.692 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:05:09.695 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:05:14.706 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:05:14.706 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:05:19.710 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:05:19.710 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:05:24.714 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:05:24.718 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:05:29.723 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:05:29.723 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:05:30.284 DEBUG 12152 --- [XNIO-2 task-11] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.web.rest.ProfileInfoResource.getActiveProfiles() with argument[s] = []
+2018-04-05 21:05:30.285 DEBUG 12152 --- [XNIO-2 task-12] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.web.rest.AccountResource.getAccount() with argument[s] = []
+2018-04-05 21:05:30.298 DEBUG 12152 --- [XNIO-2 task-11] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.web.rest.ProfileInfoResource.getActiveProfiles() with result = io.github.jhipster.registry.web.rest.ProfileInfoResource$ProfileInfoVM@732ef14b
+2018-04-05 21:05:30.304 DEBUG 12152 --- [XNIO-2 task-12] i.g.j.registry.web.rest.AccountResource  : The username `admin` has been found using JWT
+2018-04-05 21:05:30.323 DEBUG 12152 --- [XNIO-2 task-12] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.web.rest.AccountResource.getAccount() with result = <200 OK,UserVM{login='admin', authorities=[ROLE_USER, ROLE_ADMIN]},{}>
+2018-04-05 21:05:30.345 DEBUG 12152 --- [XNIO-2 task-11] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.web.rest.ProfileInfoResource.getActiveProfiles() with argument[s] = []
+2018-04-05 21:05:30.352 DEBUG 12152 --- [XNIO-2 task-11] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.web.rest.ProfileInfoResource.getActiveProfiles() with result = io.github.jhipster.registry.web.rest.ProfileInfoResource$ProfileInfoVM@38336ec7
+2018-04-05 21:05:30.779 DEBUG 12152 --- [XNIO-2 task-16] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.web.rest.EurekaResource.eurekaStatus() with argument[s] = []
+2018-04-05 21:05:30.783 DEBUG 12152 --- [XNIO-2 task-17] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.web.rest.EurekaResource.eureka() with argument[s] = []
+2018-04-05 21:05:30.808 DEBUG 12152 --- [XNIO-2 task-16] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.web.rest.EurekaResource.eurekaStatus() with result = <200 OK,io.github.jhipster.registry.web.rest.vm.EurekaVM@2f447eb9,{}>
+2018-04-05 21:05:30.836 DEBUG 12152 --- [XNIO-2 task-17] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.web.rest.EurekaResource.eureka() with result = <200 OK,io.github.jhipster.registry.web.rest.vm.EurekaVM@221199e3,{}>
+2018-04-05 21:05:34.727 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:05:34.727 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:05:39.732 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:05:39.733 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:05:44.736 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:05:44.737 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:05:46.807 DEBUG 12152 --- [XNIO-2 task-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.web.rest.ProfileInfoResource.getActiveProfiles() with argument[s] = []
+2018-04-05 21:05:46.809 DEBUG 12152 --- [XNIO-2 task-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.web.rest.ProfileInfoResource.getActiveProfiles() with result = io.github.jhipster.registry.web.rest.ProfileInfoResource$ProfileInfoVM@646e1330
+2018-04-05 21:05:46.869 DEBUG 12152 --- [XNIO-2 task-2] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.web.rest.AccountResource.getAccount() with argument[s] = []
+2018-04-05 21:05:46.870 DEBUG 12152 --- [XNIO-2 task-2] i.g.j.registry.web.rest.AccountResource  : The username `admin` has been found using JWT
+2018-04-05 21:05:46.872 DEBUG 12152 --- [XNIO-2 task-2] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.web.rest.AccountResource.getAccount() with result = <200 OK,UserVM{login='admin', authorities=[ROLE_USER, ROLE_ADMIN]},{}>
+2018-04-05 21:05:46.900 DEBUG 12152 --- [XNIO-2 task-3] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.web.rest.ProfileInfoResource.getActiveProfiles() with argument[s] = []
+2018-04-05 21:05:46.901 DEBUG 12152 --- [XNIO-2 task-3] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.web.rest.ProfileInfoResource.getActiveProfiles() with result = io.github.jhipster.registry.web.rest.ProfileInfoResource$ProfileInfoVM@10f31259
+2018-04-05 21:05:46.989 DEBUG 12152 --- [XNIO-2 task-6] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.web.rest.EurekaResource.eurekaStatus() with argument[s] = []
+2018-04-05 21:05:46.996 DEBUG 12152 --- [XNIO-2 task-9] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.web.rest.EurekaResource.eureka() with argument[s] = []
+2018-04-05 21:05:47.016 DEBUG 12152 --- [XNIO-2 task-6] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.web.rest.EurekaResource.eurekaStatus() with result = <200 OK,io.github.jhipster.registry.web.rest.vm.EurekaVM@673f7df4,{}>
+2018-04-05 21:05:47.017 DEBUG 12152 --- [XNIO-2 task-9] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.web.rest.EurekaResource.eureka() with result = <200 OK,io.github.jhipster.registry.web.rest.vm.EurekaVM@79e214a4,{}>
+2018-04-05 21:05:49.740 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:05:49.743 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:05:51.839 DEBUG 12152 --- [XNIO-2 task-18] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.web.rest.ProfileInfoResource.getActiveProfiles() with argument[s] = []
+2018-04-05 21:05:51.840 DEBUG 12152 --- [XNIO-2 task-18] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.web.rest.ProfileInfoResource.getActiveProfiles() with result = io.github.jhipster.registry.web.rest.ProfileInfoResource$ProfileInfoVM@4ef52be9
+2018-04-05 21:05:51.892 DEBUG 12152 --- [XNIO-2 task-19] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.web.rest.AccountResource.getAccount() with argument[s] = []
+2018-04-05 21:05:51.893 DEBUG 12152 --- [XNIO-2 task-19] i.g.j.registry.web.rest.AccountResource  : The username `admin` has been found using JWT
+2018-04-05 21:05:51.895 DEBUG 12152 --- [XNIO-2 task-19] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.web.rest.AccountResource.getAccount() with result = <200 OK,UserVM{login='admin', authorities=[ROLE_USER, ROLE_ADMIN]},{}>
+2018-04-05 21:05:51.915 DEBUG 12152 --- [XNIO-2 task-20] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.web.rest.ProfileInfoResource.getActiveProfiles() with argument[s] = []
+2018-04-05 21:05:51.916 DEBUG 12152 --- [XNIO-2 task-20] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.web.rest.ProfileInfoResource.getActiveProfiles() with result = io.github.jhipster.registry.web.rest.ProfileInfoResource$ProfileInfoVM@4e035246
+2018-04-05 21:05:52.007 DEBUG 12152 --- [XNIO-2 task-23] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.web.rest.EurekaResource.eurekaStatus() with argument[s] = []
+2018-04-05 21:05:52.036 DEBUG 12152 --- [XNIO-2 task-24] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.web.rest.EurekaResource.eureka() with argument[s] = []
+2018-04-05 21:05:52.078 DEBUG 12152 --- [XNIO-2 task-23] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.web.rest.EurekaResource.eurekaStatus() with result = <200 OK,io.github.jhipster.registry.web.rest.vm.EurekaVM@5cb9ee65,{}>
+2018-04-05 21:05:52.119 DEBUG 12152 --- [XNIO-2 task-24] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.web.rest.EurekaResource.eureka() with result = <200 OK,io.github.jhipster.registry.web.rest.vm.EurekaVM@5785859,{}>
+2018-04-05 21:05:54.749 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:05:54.751 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:05:55.262 DEBUG 12152 --- [XNIO-2 task-31] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.web.rest.EurekaResource.eureka() with argument[s] = []
+2018-04-05 21:05:55.264 DEBUG 12152 --- [XNIO-2 task-31] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.web.rest.EurekaResource.eureka() with result = <200 OK,io.github.jhipster.registry.web.rest.vm.EurekaVM@548c00,{}>
+2018-04-05 21:05:59.766 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:05:59.768 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:06:02.448 DEBUG 12152 --- [XNIO-2 task-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.web.rest.ProfileInfoResource.getActiveProfiles() with argument[s] = []
+2018-04-05 21:06:02.548 DEBUG 12152 --- [XNIO-2 task-4] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.web.rest.EurekaResource.eureka() with argument[s] = []
+2018-04-05 21:06:02.715 DEBUG 12152 --- [XNIO-2 task-4] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.web.rest.EurekaResource.eureka() with result = <200 OK,io.github.jhipster.registry.web.rest.vm.EurekaVM@2592543f,{}>
+2018-04-05 21:06:02.701 DEBUG 12152 --- [XNIO-2 task-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.web.rest.ProfileInfoResource.getActiveProfiles() with result = io.github.jhipster.registry.web.rest.ProfileInfoResource$ProfileInfoVM@43c6a6b4
+2018-04-05 21:06:04.774 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:06:04.777 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:06:07.785 DEBUG 12152 --- [XNIO-2 task-10] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.web.rest.RoutesResource.getRoutes() with argument[s] = []
+2018-04-05 21:06:07.857 DEBUG 12152 --- [XNIO-2 task-10] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.web.rest.RoutesResource.getRoutes() with result = <200 OK,[RouteVM{path='/**', prefix='null', serviceId='null', appName='jhipster-registry', status='UP', serviceInstances=null}],{}>
+2018-04-05 21:06:09.785 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:06:09.785 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:06:14.801 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:06:14.801 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:06:19.812 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:06:19.812 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:06:24.828 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:06:24.828 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:06:29.844 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:06:29.844 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:06:34.862 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:06:34.862 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:06:39.886 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:06:39.902 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:06:44.906 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:06:44.906 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:06:49.909 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:06:49.910 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:06:54.911 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:06:54.911 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:06:59.913 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:06:59.913 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:07:04.914 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:07:04.915 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:07:09.916 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:07:09.917 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:07:14.926 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:07:14.933 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:07:19.953 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:07:19.964 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:07:24.969 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:07:24.982 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:07:29.999 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:07:29.999 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:07:35.015 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:07:35.015 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:07:40.066 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:07:40.119 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:07:45.141 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:07:45.141 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:07:50.154 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:07:50.186 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:07:55.202 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:07:55.202 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:08:00.032  WARN 12152 --- [XNIO-2 task-5] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: MICROSERVICEGATEWAY - microserviceGateway:216ebe408beb91bd4ab09b52e6e0369f
+2018-04-05 21:08:00.032  WARN 12152 --- [XNIO-2 task-5] c.n.eureka.resources.InstanceResource    : Not Found (Renew): MICROSERVICEGATEWAY - microserviceGateway:216ebe408beb91bd4ab09b52e6e0369f
+2018-04-05 21:08:00.251 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:08:00.282 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance microserviceGateway:216ebe408beb91bd4ab09b52e6e0369f - http://192.168.1.4:8080/ 
+2018-04-05 21:08:00.282 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Adding instance 'microserviceGateway:216ebe408beb91bd4ab09b52e6e0369f' with URL: http://192.168.1.4:8080/
+2018-04-05 21:08:00.360  INFO 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Zuul routes have changed - refreshing the configuration
+2018-04-05 21:08:00.376 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:08:05.378 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:08:05.378 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance microserviceGateway:216ebe408beb91bd4ab09b52e6e0369f - http://192.168.1.4:8080/ 
+2018-04-05 21:08:05.378 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'microserviceGateway:216ebe408beb91bd4ab09b52e6e0369f' already registered
+2018-04-05 21:08:05.378 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:08:10.392 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:08:10.392 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance microserviceGateway:216ebe408beb91bd4ab09b52e6e0369f - http://192.168.1.4:8080/ 
+2018-04-05 21:08:10.392 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'microserviceGateway:216ebe408beb91bd4ab09b52e6e0369f' already registered
+2018-04-05 21:08:10.392 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:08:15.398 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:08:15.398 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance microserviceGateway:216ebe408beb91bd4ab09b52e6e0369f - http://192.168.1.4:8080/ 
+2018-04-05 21:08:15.398 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'microserviceGateway:216ebe408beb91bd4ab09b52e6e0369f' already registered
+2018-04-05 21:08:15.398 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:08:20.419 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:08:20.419 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance microserviceGateway:216ebe408beb91bd4ab09b52e6e0369f - http://192.168.1.4:8080/ 
+2018-04-05 21:08:20.419 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'microserviceGateway:216ebe408beb91bd4ab09b52e6e0369f' already registered
+2018-04-05 21:08:20.419 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:08:25.433 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:08:25.433 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance microserviceGateway:216ebe408beb91bd4ab09b52e6e0369f - http://192.168.1.4:8080/ 
+2018-04-05 21:08:25.433 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'microserviceGateway:216ebe408beb91bd4ab09b52e6e0369f' already registered
+2018-04-05 21:08:25.433 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:08:30.440 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:08:30.442 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance microserviceGateway:216ebe408beb91bd4ab09b52e6e0369f - http://192.168.1.4:8080/ 
+2018-04-05 21:08:30.444 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'microserviceGateway:216ebe408beb91bd4ab09b52e6e0369f' already registered
+2018-04-05 21:08:30.445 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:08:35.461 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:08:35.461 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance microserviceGateway:216ebe408beb91bd4ab09b52e6e0369f - http://192.168.1.4:8080/ 
+2018-04-05 21:08:35.461 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'microserviceGateway:216ebe408beb91bd4ab09b52e6e0369f' already registered
+2018-04-05 21:08:35.461 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:08:40.467 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:08:40.469 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance microserviceGateway:216ebe408beb91bd4ab09b52e6e0369f - http://192.168.1.4:8080/ 
+2018-04-05 21:08:40.472 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'microserviceGateway:216ebe408beb91bd4ab09b52e6e0369f' already registered
+2018-04-05 21:08:40.474 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:08:45.485 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:08:45.485 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance microserviceGateway:216ebe408beb91bd4ab09b52e6e0369f - http://192.168.1.4:8080/ 
+2018-04-05 21:08:45.485 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'microserviceGateway:216ebe408beb91bd4ab09b52e6e0369f' already registered
+2018-04-05 21:08:45.485 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:08:50.500 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:08:50.500 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance microserviceGateway:216ebe408beb91bd4ab09b52e6e0369f - http://192.168.1.4:8080/ 
+2018-04-05 21:08:50.500 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'microserviceGateway:216ebe408beb91bd4ab09b52e6e0369f' already registered
+2018-04-05 21:08:50.500 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:08:55.504 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:08:55.504 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance microserviceGateway:216ebe408beb91bd4ab09b52e6e0369f - http://192.168.1.4:8080/ 
+2018-04-05 21:08:55.504 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'microserviceGateway:216ebe408beb91bd4ab09b52e6e0369f' already registered
+2018-04-05 21:08:55.504 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:09:00.510 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:09:00.512 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance microserviceGateway:216ebe408beb91bd4ab09b52e6e0369f - http://192.168.1.4:8080/ 
+2018-04-05 21:09:00.513 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'microserviceGateway:216ebe408beb91bd4ab09b52e6e0369f' already registered
+2018-04-05 21:09:00.515 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:09:05.531 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:09:05.531 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance microserviceGateway:216ebe408beb91bd4ab09b52e6e0369f - http://192.168.1.4:8080/ 
+2018-04-05 21:09:05.531 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'microserviceGateway:216ebe408beb91bd4ab09b52e6e0369f' already registered
+2018-04-05 21:09:05.531 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:09:10.545 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:09:10.545 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance microserviceGateway:216ebe408beb91bd4ab09b52e6e0369f - http://192.168.1.4:8080/ 
+2018-04-05 21:09:10.545 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'microserviceGateway:216ebe408beb91bd4ab09b52e6e0369f' already registered
+2018-04-05 21:09:10.545 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:09:15.563 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:09:15.563 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance microserviceGateway:216ebe408beb91bd4ab09b52e6e0369f - http://192.168.1.4:8080/ 
+2018-04-05 21:09:15.563 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'microserviceGateway:216ebe408beb91bd4ab09b52e6e0369f' already registered
+2018-04-05 21:09:15.563 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:09:20.575 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:09:20.575 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance microserviceGateway:216ebe408beb91bd4ab09b52e6e0369f - http://192.168.1.4:8080/ 
+2018-04-05 21:09:20.575 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'microserviceGateway:216ebe408beb91bd4ab09b52e6e0369f' already registered
+2018-04-05 21:09:20.575 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:09:25.581 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:09:25.581 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance microserviceGateway:216ebe408beb91bd4ab09b52e6e0369f - http://192.168.1.4:8080/ 
+2018-04-05 21:09:25.582 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'microserviceGateway:216ebe408beb91bd4ab09b52e6e0369f' already registered
+2018-04-05 21:09:25.582 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Updating instance 'microserviceGateway:216ebe408beb91bd4ab09b52e6e0369f' with new URL: http://192.168.1.4:8080/
+2018-04-05 21:09:25.582  INFO 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Zuul routes have changed - refreshing the configuration
+2018-04-05 21:09:25.583 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:09:26.031  WARN 12152 --- [TaskBatchingWorker-target_localhost-3] c.n.eureka.cluster.ReplicationTask       : The replication of task MICROSERVICEGATEWAY/microserviceGateway:216ebe408beb91bd4ab09b52e6e0369f:Heartbeat@localhost failed with response code 409
+2018-04-05 21:09:30.586 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:09:30.586 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance microserviceGateway:216ebe408beb91bd4ab09b52e6e0369f - http://192.168.1.4:8080/ 
+2018-04-05 21:09:30.586 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'microserviceGateway:216ebe408beb91bd4ab09b52e6e0369f' already registered
+2018-04-05 21:09:30.586 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:09:35.605 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:09:35.605 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance microserviceGateway:216ebe408beb91bd4ab09b52e6e0369f - http://192.168.1.4:8080/ 
+2018-04-05 21:09:35.605 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'microserviceGateway:216ebe408beb91bd4ab09b52e6e0369f' already registered
+2018-04-05 21:09:35.605 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:09:40.609 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:09:40.609 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance microserviceGateway:216ebe408beb91bd4ab09b52e6e0369f - http://192.168.1.4:8080/ 
+2018-04-05 21:09:40.609 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'microserviceGateway:216ebe408beb91bd4ab09b52e6e0369f' already registered
+2018-04-05 21:09:40.609 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:09:45.637 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:09:45.637 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance microserviceGateway:216ebe408beb91bd4ab09b52e6e0369f - http://192.168.1.4:8080/ 
+2018-04-05 21:09:45.637 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'microserviceGateway:216ebe408beb91bd4ab09b52e6e0369f' already registered
+2018-04-05 21:09:45.637 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:09:50.652 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:09:50.652 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance microserviceGateway:216ebe408beb91bd4ab09b52e6e0369f - http://192.168.1.4:8080/ 
+2018-04-05 21:09:50.652 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'microserviceGateway:216ebe408beb91bd4ab09b52e6e0369f' already registered
+2018-04-05 21:09:50.652 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:09:55.671 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:09:55.671 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance microserviceGateway:216ebe408beb91bd4ab09b52e6e0369f - http://192.168.1.4:8080/ 
+2018-04-05 21:09:55.671 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'microserviceGateway:216ebe408beb91bd4ab09b52e6e0369f' already registered
+2018-04-05 21:09:55.671 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:10:00.684 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:10:00.684 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:10:05.690 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:10:05.690 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:10:10.697 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:10:10.699 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:10:15.707 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:10:15.707 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:10:20.718 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:10:20.718 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:10:25.731 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:10:25.731 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:10:30.734 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:10:30.736 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:10:35.738 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:10:35.740 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:10:40.745 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:10:40.747 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:10:45.751 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:10:45.752 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:10:46.364 DEBUG 12152 --- [XNIO-2 task-22] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.web.rest.EurekaResource.eurekaStatus() with argument[s] = []
+2018-04-05 21:10:46.380 DEBUG 12152 --- [XNIO-2 task-22] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.web.rest.EurekaResource.eurekaStatus() with result = <200 OK,io.github.jhipster.registry.web.rest.vm.EurekaVM@7da281fe,{}>
+2018-04-05 21:10:46.366 DEBUG 12152 --- [XNIO-2 task-20] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.web.rest.EurekaResource.eureka() with argument[s] = []
+2018-04-05 21:10:46.384 DEBUG 12152 --- [XNIO-2 task-20] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.web.rest.EurekaResource.eureka() with result = <200 OK,io.github.jhipster.registry.web.rest.vm.EurekaVM@1eb9f4a4,{}>
+2018-04-05 21:10:50.753 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:10:50.756 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:10:55.761 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:10:55.763 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:11:00.767 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:11:00.767 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:11:05.769 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:11:05.771 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:11:10.776 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:11:10.778 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:11:15.780 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:11:15.782 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:11:20.785 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:11:20.787 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:11:25.789 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:11:25.790 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:11:30.792 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:11:30.793 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:11:35.796 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:11:35.798 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:11:40.801 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:11:40.801 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:11:45.804 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:11:45.804 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:11:50.807 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:11:50.807 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:11:55.808 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:11:55.809 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:12:00.810 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:12:00.812 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:12:05.817 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:12:05.818 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:12:10.819 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:12:10.820 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:12:15.823 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:12:15.824 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:12:20.826 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:12:20.828 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:12:25.833 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:12:25.836 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:12:30.839 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:12:30.841 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:12:35.842 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:12:35.842 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:12:40.844 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:12:40.844 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:12:45.846 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:12:45.849 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:12:50.855 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:12:50.881 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:12:55.884 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:12:55.885 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:13:00.896 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:13:00.896 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:13:05.901 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:13:05.905 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:13:10.916 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:13:10.916 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:13:15.923 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:13:15.923 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:13:20.934 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:13:20.935 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:13:22.951  WARN 12152 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: expired lease for MICROSERVICEGATEWAY/microserviceGateway:216ebe408beb91bd4ab09b52e6e0369f
+2018-04-05 21:13:25.935 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:13:25.935 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Removing instance 'microserviceGateway:216ebe408beb91bd4ab09b52e6e0369f'
+2018-04-05 21:13:25.935  INFO 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Zuul routes have changed - refreshing the configuration
+2018-04-05 21:13:25.935 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:13:30.953 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:13:30.953 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:13:35.967 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:13:35.967 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:13:40.973 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:13:40.973 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:13:45.990 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:13:45.990 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:13:50.996 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:13:50.996 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:13:56.011 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:13:56.011 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:14:01.021 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:14:01.021 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:14:06.037 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:14:06.037 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:14:11.047 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:14:11.047 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:14:16.059 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:14:16.059 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:14:21.066 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:14:21.066 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:14:26.070 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:14:26.070 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:14:31.090 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:14:31.090 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:14:36.094 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:14:36.094 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:14:41.099 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:14:41.101 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:14:46.108 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:14:46.108 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:14:51.117 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:14:51.117 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:14:56.131 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:14:56.131 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:15:01.135 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:15:01.135 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:15:06.150 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:15:06.150 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:15:11.162 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:15:11.162 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:15:16.176 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:15:16.176 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:15:21.177 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:15:21.177 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:15:26.184 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:15:26.184 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:15:31.193 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:15:31.193 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:15:36.200 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:15:36.200 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:15:41.209 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:15:41.209 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:15:46.222 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:15:46.222 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:15:51.225 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:15:51.225 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:15:54.693  WARN 12152 --- [XNIO-2 task-18] o.s.c.n.zuul.web.ZuulHandlerMapping      : No routes found from RouteLocator
+2018-04-05 21:15:56.231 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:15:56.231 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:16:01.245 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:16:01.245 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:16:06.261 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:16:06.261 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:16:11.274 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:16:11.274 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:16:16.290 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:16:16.290 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:16:21.300 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:16:21.300 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:16:26.312 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:16:26.312 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:16:31.323 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:16:31.323 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:16:36.334 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:16:36.334 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:16:41.345 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:16:41.345 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:16:46.349 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:16:46.351 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:16:51.373 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:16:51.385 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:16:54.249 DEBUG 12152 --- [XNIO-2 task-21] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.web.rest.ProfileInfoResource.getActiveProfiles() with argument[s] = []
+2018-04-05 21:16:54.255 DEBUG 12152 --- [XNIO-2 task-21] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.web.rest.ProfileInfoResource.getActiveProfiles() with result = io.github.jhipster.registry.web.rest.ProfileInfoResource$ProfileInfoVM@6efe841a
+2018-04-05 21:16:54.336 DEBUG 12152 --- [XNIO-2 task-24] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.web.rest.AccountResource.getAccount() with argument[s] = []
+2018-04-05 21:16:54.338 DEBUG 12152 --- [XNIO-2 task-24] i.g.j.registry.web.rest.AccountResource  : The username `admin` has been found using JWT
+2018-04-05 21:16:54.339 DEBUG 12152 --- [XNIO-2 task-24] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.web.rest.AccountResource.getAccount() with result = <200 OK,UserVM{login='admin', authorities=[ROLE_USER, ROLE_ADMIN]},{}>
+2018-04-05 21:16:54.364 DEBUG 12152 --- [XNIO-2 task-26] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.web.rest.ProfileInfoResource.getActiveProfiles() with argument[s] = []
+2018-04-05 21:16:54.369 DEBUG 12152 --- [XNIO-2 task-26] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.web.rest.ProfileInfoResource.getActiveProfiles() with result = io.github.jhipster.registry.web.rest.ProfileInfoResource$ProfileInfoVM@bc51e0e
+2018-04-05 21:16:54.449 DEBUG 12152 --- [XNIO-2 task-29] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.web.rest.EurekaResource.eurekaStatus() with argument[s] = []
+2018-04-05 21:16:54.464 DEBUG 12152 --- [XNIO-2 task-25] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.web.rest.EurekaResource.eureka() with argument[s] = []
+2018-04-05 21:16:54.491 DEBUG 12152 --- [XNIO-2 task-29] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.web.rest.EurekaResource.eurekaStatus() with result = <200 OK,io.github.jhipster.registry.web.rest.vm.EurekaVM@12c64761,{}>
+2018-04-05 21:16:54.493 DEBUG 12152 --- [XNIO-2 task-25] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.web.rest.EurekaResource.eureka() with result = <200 OK,io.github.jhipster.registry.web.rest.vm.EurekaVM@22b921b1,{}>
+2018-04-05 21:16:56.388 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:16:56.388 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:17:01.391 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:17:01.391 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:17:06.400 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:17:06.410 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:17:11.421 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:17:11.421 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:17:16.445 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:17:16.445 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:17:21.453 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:17:21.453 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:17:26.473 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:17:26.473 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:17:31.479 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:17:31.479 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:17:36.494 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:17:36.494 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:17:41.497 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:17:41.497 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:17:46.507 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:17:46.507 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:17:51.516 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:17:51.516 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:17:56.522 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:17:56.522 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:18:01.527 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:18:01.527 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:18:06.537 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:18:06.537 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:18:11.553 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:18:11.553 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:18:16.569 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:18:16.569 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:18:21.583 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:18:21.583 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:18:26.591 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:18:26.591 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:18:31.600 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:18:31.600 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:18:36.609 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:18:36.609 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:18:41.617 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:18:41.617 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:18:46.620 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:18:46.622 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:18:51.627 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:18:51.627 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:18:56.630 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:18:56.630 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:19:01.640 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:19:01.646 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:19:06.651 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:19:06.652 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:19:11.663 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:19:11.663 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:19:16.666 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:19:16.666 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:19:21.670 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:19:21.674 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:19:26.688 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:19:26.688 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:19:31.705 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:19:31.705 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:19:36.720 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:19:36.720 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:19:41.741 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:19:41.741 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:19:46.748 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:19:46.748 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:19:51.753 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:19:51.753 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:19:56.756 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:19:56.756 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:20:01.773 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:20:01.773 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:20:06.787 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:20:06.787 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:20:11.793 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:20:11.793 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:20:16.797 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:20:16.797 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:20:21.819 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:20:21.835 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:20:26.844 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:20:26.844 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:20:31.862 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:20:31.862 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:20:36.863 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:20:36.878 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:20:41.890 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:20:41.890 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:20:46.897 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:20:46.897 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:20:51.903 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:20:51.903 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:20:56.914 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:20:56.915 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:21:01.917 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:21:01.917 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:21:06.919 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:21:06.919 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:21:11.921 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:21:11.921 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:21:16.923 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:21:16.923 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:21:21.924 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:21:21.924 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:21:26.939 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:21:26.939 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:21:31.953 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:21:31.953 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:21:36.955 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:21:36.955 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:21:41.969 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:21:41.969 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:21:46.972 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:21:46.972 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:21:51.986 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:21:51.986 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:21:57.000 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:21:57.000 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:22:02.001 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:22:02.001 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:22:07.010 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:22:07.010 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:22:12.017 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:22:12.017 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:22:17.016 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:22:17.016 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:22:22.034 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:22:22.034 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:22:27.047 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:22:27.047 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:22:32.063 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:22:32.063 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:22:37.070 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:22:37.070 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:22:42.074 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:22:42.074 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:22:47.080 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:22:47.080 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:22:52.090 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:22:52.090 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:22:57.096 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:22:57.097 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:23:02.101 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:23:02.101 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:23:05.970  WARN 12152 --- [XNIO-2 task-25] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: MICROSERVICEGATEWAY - microserviceGateway:c39992016555074925e07d5f738dc14c
+2018-04-05 21:23:05.970  WARN 12152 --- [XNIO-2 task-25] c.n.eureka.resources.InstanceResource    : Not Found (Renew): MICROSERVICEGATEWAY - microserviceGateway:c39992016555074925e07d5f738dc14c
+2018-04-05 21:23:07.111 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:23:07.111 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance microserviceGateway:c39992016555074925e07d5f738dc14c - http://192.168.1.4:8080/ 
+2018-04-05 21:23:07.111 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Adding instance 'microserviceGateway:c39992016555074925e07d5f738dc14c' with URL: http://192.168.1.4:8080/
+2018-04-05 21:23:07.111  INFO 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Zuul routes have changed - refreshing the configuration
+2018-04-05 21:23:07.111 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:23:12.111 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:23:12.174 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance microserviceGateway:c39992016555074925e07d5f738dc14c - http://192.168.1.4:8080/ 
+2018-04-05 21:23:12.205 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'microserviceGateway:c39992016555074925e07d5f738dc14c' already registered
+2018-04-05 21:23:12.252 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:23:17.293 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:23:17.293 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance microserviceGateway:c39992016555074925e07d5f738dc14c - http://192.168.1.4:8080/ 
+2018-04-05 21:23:17.294 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'microserviceGateway:c39992016555074925e07d5f738dc14c' already registered
+2018-04-05 21:23:17.294 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:23:22.297 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:23:22.297 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance microserviceGateway:c39992016555074925e07d5f738dc14c - http://192.168.1.4:8080/ 
+2018-04-05 21:23:22.297 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'microserviceGateway:c39992016555074925e07d5f738dc14c' already registered
+2018-04-05 21:23:22.297 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:23:27.310 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:23:27.310 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance microserviceGateway:c39992016555074925e07d5f738dc14c - http://192.168.1.4:8080/ 
+2018-04-05 21:23:27.310 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'microserviceGateway:c39992016555074925e07d5f738dc14c' already registered
+2018-04-05 21:23:27.310 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:23:32.314 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:23:32.314 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance microserviceGateway:c39992016555074925e07d5f738dc14c - http://192.168.1.4:8080/ 
+2018-04-05 21:23:32.314 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'microserviceGateway:c39992016555074925e07d5f738dc14c' already registered
+2018-04-05 21:23:32.314 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:23:37.318 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:23:37.318 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance microserviceGateway:c39992016555074925e07d5f738dc14c - http://192.168.1.4:8080/ 
+2018-04-05 21:23:37.318 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'microserviceGateway:c39992016555074925e07d5f738dc14c' already registered
+2018-04-05 21:23:37.318 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:23:42.327 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:23:42.327 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance microserviceGateway:c39992016555074925e07d5f738dc14c - http://192.168.1.4:8080/ 
+2018-04-05 21:23:42.327 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'microserviceGateway:c39992016555074925e07d5f738dc14c' already registered
+2018-04-05 21:23:42.327 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:23:47.337 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:23:47.337 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance microserviceGateway:c39992016555074925e07d5f738dc14c - http://192.168.1.4:8080/ 
+2018-04-05 21:23:47.337 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'microserviceGateway:c39992016555074925e07d5f738dc14c' already registered
+2018-04-05 21:23:47.337 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:23:52.349 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:23:52.349 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance microserviceGateway:c39992016555074925e07d5f738dc14c - http://192.168.1.4:8080/ 
+2018-04-05 21:23:52.349 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'microserviceGateway:c39992016555074925e07d5f738dc14c' already registered
+2018-04-05 21:23:52.349 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:23:57.369 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:23:57.369 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance microserviceGateway:c39992016555074925e07d5f738dc14c - http://192.168.1.4:8080/ 
+2018-04-05 21:23:57.369 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'microserviceGateway:c39992016555074925e07d5f738dc14c' already registered
+2018-04-05 21:23:57.369 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:24:02.385 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:24:02.385 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance microserviceGateway:c39992016555074925e07d5f738dc14c - http://192.168.1.4:8080/ 
+2018-04-05 21:24:02.385 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'microserviceGateway:c39992016555074925e07d5f738dc14c' already registered
+2018-04-05 21:24:02.385 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:24:07.401 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:24:07.401 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance microserviceGateway:c39992016555074925e07d5f738dc14c - http://192.168.1.4:8080/ 
+2018-04-05 21:24:07.401 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'microserviceGateway:c39992016555074925e07d5f738dc14c' already registered
+2018-04-05 21:24:07.401 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:24:12.424 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:24:12.424 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance microserviceGateway:c39992016555074925e07d5f738dc14c - http://192.168.1.4:8080/ 
+2018-04-05 21:24:12.424 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'microserviceGateway:c39992016555074925e07d5f738dc14c' already registered
+2018-04-05 21:24:12.424 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:24:17.438 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:24:17.438 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance microserviceGateway:c39992016555074925e07d5f738dc14c - http://192.168.1.4:8080/ 
+2018-04-05 21:24:17.438 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'microserviceGateway:c39992016555074925e07d5f738dc14c' already registered
+2018-04-05 21:24:17.438 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:24:22.446 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:24:22.446 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance microserviceGateway:c39992016555074925e07d5f738dc14c - http://192.168.1.4:8080/ 
+2018-04-05 21:24:22.446 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'microserviceGateway:c39992016555074925e07d5f738dc14c' already registered
+2018-04-05 21:24:22.446 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:24:27.458 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:24:27.458 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance microserviceGateway:c39992016555074925e07d5f738dc14c - http://192.168.1.4:8080/ 
+2018-04-05 21:24:27.458 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'microserviceGateway:c39992016555074925e07d5f738dc14c' already registered
+2018-04-05 21:24:27.458 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:24:31.945  WARN 12152 --- [TaskBatchingWorker-target_localhost-15] c.n.eureka.cluster.ReplicationTask       : The replication of task MICROSERVICEGATEWAY/microserviceGateway:c39992016555074925e07d5f738dc14c:Heartbeat@localhost failed with response code 409
+2018-04-05 21:24:32.464 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:24:32.464 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance microserviceGateway:c39992016555074925e07d5f738dc14c - http://192.168.1.4:8080/ 
+2018-04-05 21:24:32.464 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'microserviceGateway:c39992016555074925e07d5f738dc14c' already registered
+2018-04-05 21:24:32.464 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Updating instance 'microserviceGateway:c39992016555074925e07d5f738dc14c' with new URL: http://192.168.1.4:8080/
+2018-04-05 21:24:32.464  INFO 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Zuul routes have changed - refreshing the configuration
+2018-04-05 21:24:32.464 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:24:37.474 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:24:37.474 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance microserviceGateway:c39992016555074925e07d5f738dc14c - http://192.168.1.4:8080/ 
+2018-04-05 21:24:37.474 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'microserviceGateway:c39992016555074925e07d5f738dc14c' already registered
+2018-04-05 21:24:37.474 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:24:42.481 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:24:42.482 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance microserviceGateway:c39992016555074925e07d5f738dc14c - http://192.168.1.4:8080/ 
+2018-04-05 21:24:42.482 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'microserviceGateway:c39992016555074925e07d5f738dc14c' already registered
+2018-04-05 21:24:42.483 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:24:47.484 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:24:47.484 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance microserviceGateway:c39992016555074925e07d5f738dc14c - http://192.168.1.4:8080/ 
+2018-04-05 21:24:47.485 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'microserviceGateway:c39992016555074925e07d5f738dc14c' already registered
+2018-04-05 21:24:47.486 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:24:52.490 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:24:52.490 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance microserviceGateway:c39992016555074925e07d5f738dc14c - http://192.168.1.4:8080/ 
+2018-04-05 21:24:52.490 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'microserviceGateway:c39992016555074925e07d5f738dc14c' already registered
+2018-04-05 21:24:52.490 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:24:57.496 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:24:57.496 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance microserviceGateway:c39992016555074925e07d5f738dc14c - http://192.168.1.4:8080/ 
+2018-04-05 21:24:57.496 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'microserviceGateway:c39992016555074925e07d5f738dc14c' already registered
+2018-04-05 21:24:57.496 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:25:02.508 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:25:02.508 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance microserviceGateway:c39992016555074925e07d5f738dc14c - http://192.168.1.4:8080/ 
+2018-04-05 21:25:02.508 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'microserviceGateway:c39992016555074925e07d5f738dc14c' already registered
+2018-04-05 21:25:02.508 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:25:07.514 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:25:07.515 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:25:12.530 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:25:12.530 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:25:17.533 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:25:17.534 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:25:22.537 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:25:22.538 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:25:27.541 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:25:27.541 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:25:32.543 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:25:32.544 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:25:37.546 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:25:37.546 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:25:42.547 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:25:42.549 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:25:47.551 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:25:47.553 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:25:52.556 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:25:52.557 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:25:57.567 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:25:57.567 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:26:02.582 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:26:02.582 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:26:07.591 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:26:07.591 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:26:12.599 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:26:12.599 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:26:17.605 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:26:17.605 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 21:26:22.613 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 21:26:22.613 DEBUG 12152 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
