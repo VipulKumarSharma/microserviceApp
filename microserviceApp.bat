@@ -1,10 +1,18 @@
 # Jhipster Microservice Application ::
 
+# To run Jhipster-Registry, download the project from github (don't clone using git URL), 
+# then execute following commands in project's folder
+
+> yarn
+> mvnw
+
 
 # Install Yarn using installer, then execute below commands :
 
 > yarn global add yo
 > yarn global add generator-jhipster
+
+# Jhipster-Registry will run at http://localhost:8761
 
 
 # You can also install Jhipster using "npm"
@@ -53,3 +61,20 @@
 > yarn start
 
 
+# OverWrite ".yo-rc.json", to skip answering jhipster questions.
+
+
+# After running project in browser, run below command to perform automated testing :
+
+> yarn e2e
+
+# If any error occurs, then update webdriver using below command, then run above command :
+
+> yarn webdriver-manager update
+
+
+# To check your project into Git so you can easily see what changes are made going forward :
+
+> git init
+> git add .
+> git commit -m "Gateway created"
