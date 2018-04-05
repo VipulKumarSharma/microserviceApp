@@ -1,0 +1,39 @@
+{
+  "generator-jhipster": {
+    "applicationType": "gateway",
+    "gitHubOrganization": "VipulKumarSharma",
+    "baseName": "microserviceGateway",
+    "packageName": "com.microservice.gateway",
+    "serverPort": 8080,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mssql",
+    "prodDatabaseType": "mssql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "enableSocialSignIn": false,
+    "useSass": true,
+    "clientPackageManager": "yarn",
+    "testFrameworks": [
+      "gatling",
+      "protractor"
+    ],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "hy"
+    ],
+    "clientFramework": "angularX",
+    "jhipsterVersion": "4.14.1",
+    "packageFolder": "com/microservice/gateway",
+    "jwtSecretKey": "28ab96349d34a146a11ff802246c806ccfef1a7a",
+    "jhiPrefix": "jhi"
+  }
+}

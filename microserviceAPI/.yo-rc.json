@@ -1,0 +1,41 @@
+{
+  "generator-jhipster": {
+    "applicationType": "microservice",
+    "gitHubOrganization": "VipulKumarSharma",
+    "baseName": "microserviceAPI",
+    "packageName": "com.microservice.api",
+    "serverPort": 8081,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "no",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mssql",
+    "prodDatabaseType": "mssql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "enableSocialSignIn": false,
+    "useSass": true,
+    "clientPackageManager": "yarn",
+    "testFrameworks": [
+      "gatling",
+      "protractor"
+    ],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "hy"
+    ],
+    "clientFramework": "angularX",
+    "jhipsterVersion": "4.14.1",
+    "packageFolder": "com/microservice/api",
+    "jwtSecretKey": "a54e03c4e13beff2fb86d5b26de40e2aaf2d02ca",
+    "jhiPrefix": "jhi",
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
