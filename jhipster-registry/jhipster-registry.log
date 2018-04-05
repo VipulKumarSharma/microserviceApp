@@ -206,3 +206,60 @@
 2018-04-05 20:24:36.852 DEBUG 3532 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
 2018-04-05 20:24:41.859 DEBUG 3532 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
 2018-04-05 20:24:41.859 DEBUG 3532 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 20:55:52.125  INFO 8652 --- [restartedMain] i.g.j.registry.JHipsterRegistryApp       : The following profiles are active: swagger,dev,native
+2018-04-05 20:55:56.609 DEBUG 8652 --- [restartedMain] i.g.j.r.config.AsyncConfiguration        : Creating Async Task Executor
+2018-04-05 20:55:57.304 DEBUG 8652 --- [restartedMain] i.g.j.r.config.MetricsConfiguration      : Registering JVM gauges
+2018-04-05 20:55:57.413 DEBUG 8652 --- [restartedMain] i.g.j.r.config.MetricsConfiguration      : Initializing Metrics JMX reporting
+2018-04-05 20:56:01.291 DEBUG 8652 --- [restartedMain] i.g.j.registry.config.WebConfigurer      : Registering CORS filter
+2018-04-05 20:56:01.607  INFO 8652 --- [restartedMain] i.g.j.registry.config.WebConfigurer      : Web application configuration, using profiles: swagger
+2018-04-05 20:56:01.607 DEBUG 8652 --- [restartedMain] i.g.j.registry.config.WebConfigurer      : Initializing Metrics registries
+2018-04-05 20:56:01.607 DEBUG 8652 --- [restartedMain] i.g.j.registry.config.WebConfigurer      : Registering Metrics Filter
+2018-04-05 20:56:01.607 DEBUG 8652 --- [restartedMain] i.g.j.registry.config.WebConfigurer      : Registering Metrics Servlet
+2018-04-05 20:56:01.623  INFO 8652 --- [restartedMain] i.g.j.registry.config.WebConfigurer      : Web application fully configured
+2018-04-05 20:56:03.136  WARN 8652 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-04-05 20:56:09.649  WARN 8652 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-04-05 20:56:12.247 DEBUG 8652 --- [restartedMain] i.g.j.c.apidoc.SwaggerConfiguration      : Starting Swagger
+2018-04-05 20:56:12.266 DEBUG 8652 --- [restartedMain] i.g.j.c.apidoc.SwaggerConfiguration      : Started Swagger in 18 ms
+2018-04-05 20:56:14.476  INFO 8652 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2018-04-05 20:56:14.476  INFO 8652 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2018-04-05 20:56:14.491  INFO 8652 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1522941974491 with initial instances count: 0
+2018-04-05 20:56:15.315  INFO 8652 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2018-04-05 20:56:15.315  INFO 8652 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2018-04-05 20:56:15.315  INFO 8652 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2018-04-05 20:56:15.315  INFO 8652 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2018-04-05 20:56:16.675  WARN 8652 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with key 'zuulEndpoint' has been registered as an MBean but has no exposed attributes or operations
+2018-04-05 20:56:19.343 DEBUG 8652 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 20:56:19.357 DEBUG 8652 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 20:56:19.482  INFO 8652 --- [restartedMain] i.g.j.registry.JHipsterRegistryApp       : Started JHipsterRegistryApp in 32.073 seconds (JVM running for 33.281)
+2018-04-05 20:56:19.484  INFO 8652 --- [restartedMain] i.g.j.registry.JHipsterRegistryApp       : 
+----------------------------------------------------------
+	Application 'jhipster-registry' is running! Access URLs:
+	Local: 		http://localhost:8761
+	External: 	http://10.0.75.1:8761
+	Profile(s): 	[swagger, dev, native]
+----------------------------------------------------------
+2018-04-05 20:56:20.659  WARN 8652 --- [XNIO-2 task-1] o.s.c.n.zuul.web.ZuulHandlerMapping      : No routes found from RouteLocator
+2018-04-05 20:56:23.637 DEBUG 8652 --- [XNIO-2 task-8] i.g.j.r.s.Http401UnauthorizedEntryPoint  : Pre-authenticated entry point called. Rejecting access
+2018-04-05 20:56:23.653 DEBUG 8652 --- [XNIO-2 task-7] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.web.rest.ProfileInfoResource.getActiveProfiles() with argument[s] = []
+2018-04-05 20:56:23.675 DEBUG 8652 --- [XNIO-2 task-7] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.web.rest.ProfileInfoResource.getActiveProfiles() with result = io.github.jhipster.registry.web.rest.ProfileInfoResource$ProfileInfoVM@6773ff22
+2018-04-05 20:56:23.949 DEBUG 8652 --- [XNIO-2 task-11] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.web.rest.ProfileInfoResource.getActiveProfiles() with argument[s] = []
+2018-04-05 20:56:23.950 DEBUG 8652 --- [XNIO-2 task-11] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.web.rest.ProfileInfoResource.getActiveProfiles() with result = io.github.jhipster.registry.web.rest.ProfileInfoResource$ProfileInfoVM@445526e4
+2018-04-05 20:56:24.204 DEBUG 8652 --- [XNIO-2 task-12] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.web.rest.ProfileInfoResource.getActiveProfiles() with argument[s] = []
+2018-04-05 20:56:24.206 DEBUG 8652 --- [XNIO-2 task-12] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.web.rest.ProfileInfoResource.getActiveProfiles() with result = io.github.jhipster.registry.web.rest.ProfileInfoResource$ProfileInfoVM@446ec18
+2018-04-05 20:56:24.372 DEBUG 8652 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 20:56:24.372 DEBUG 8652 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 20:56:29.375 DEBUG 8652 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 20:56:29.376 DEBUG 8652 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
+2018-04-05 20:56:29.926 DEBUG 8652 --- [XNIO-2 task-13] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.web.rest.UserJWTController.authorize() with argument[s] = [LoginVM{username='admin', rememberMe=true}, com.codahale.metrics.servlet.AbstractInstrumentedFilter$StatusExposingServletResponse@52443fc]
+2018-04-05 20:56:31.093 DEBUG 8652 --- [XNIO-2 task-13] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.web.rest.UserJWTController.authorize() with result = <200 OK,io.github.jhipster.registry.web.rest.UserJWTController$JWTToken@2a5ea7fa,{}>
+2018-04-05 20:56:31.228 DEBUG 8652 --- [XNIO-2 task-14] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.web.rest.AccountResource.getAccount() with argument[s] = []
+2018-04-05 20:56:31.243 DEBUG 8652 --- [XNIO-2 task-14] i.g.j.registry.web.rest.AccountResource  : The username `admin` has been found using JWT
+2018-04-05 20:56:31.261 DEBUG 8652 --- [XNIO-2 task-14] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.web.rest.AccountResource.getAccount() with result = <200 OK,UserVM{login='admin', authorities=[ROLE_USER, ROLE_ADMIN]},{}>
+2018-04-05 20:56:31.369 DEBUG 8652 --- [XNIO-2 task-15] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.web.rest.ProfileInfoResource.getActiveProfiles() with argument[s] = []
+2018-04-05 20:56:31.374 DEBUG 8652 --- [XNIO-2 task-16] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.web.rest.EurekaResource.eurekaStatus() with argument[s] = []
+2018-04-05 20:56:31.378 DEBUG 8652 --- [XNIO-2 task-17] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.web.rest.EurekaResource.eureka() with argument[s] = []
+2018-04-05 20:56:31.418 DEBUG 8652 --- [XNIO-2 task-15] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.web.rest.ProfileInfoResource.getActiveProfiles() with result = io.github.jhipster.registry.web.rest.ProfileInfoResource$ProfileInfoVM@256ee449
+2018-04-05 20:56:31.451 DEBUG 8652 --- [XNIO-2 task-16] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.web.rest.EurekaResource.eurekaStatus() with result = <200 OK,io.github.jhipster.registry.web.rest.vm.EurekaVM@3a0c90b2,{}>
+2018-04-05 20:56:31.455 DEBUG 8652 --- [XNIO-2 task-17] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.web.rest.EurekaResource.eureka() with result = <200 OK,io.github.jhipster.registry.web.rest.vm.EurekaVM@594f1dd5,{}>
+2018-04-05 20:56:34.383 DEBUG 8652 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Enter: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with argument[s] = []
+2018-04-05 20:56:34.387 DEBUG 8652 --- [pool-4-thread-1] i.g.j.r.aop.logging.LoggingAspect        : Exit: io.github.jhipster.registry.service.ZuulUpdaterService.updateZuulRoutes() with result = null
